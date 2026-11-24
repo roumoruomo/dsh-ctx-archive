@@ -1,0 +1,47 @@
+{
+    "name":  "dsh-ctx-archive",
+    "version":  "0.4.3",
+    "description":  "Rebuilds a session-archive briefing on every step: a hard instruction to verify old facts through the read-only ctx_archive tool, plus a live inventory of the archive root. Session directory names are masked as \u003csid-N\u003e by default.",
+    "type":  "module",
+    "exports":  {
+                    ".":  "./index.js",
+                    "./locale/*.json":  "./locale/*.json",
+                    "./icon":  "./icon.svg"
+                },
+    "files":  [
+                  "index.js",
+                  "force-bridge.mjs",
+                  "cordis.patch.yml",
+                  "locale",
+                  "docs",
+                  "icon.svg",
+                  "README.md"
+              ],
+    "keywords":  [
+                     "deepseek",
+                     "deepseek-harness",
+                     "dsh",
+                     "dsh-plugin",
+                     "context",
+                     "archive",
+                     "transcript",
+                     "memory",
+                     "session"
+                 ],
+    "license":  "MIT",
+    "engines":  {
+                    "node":  "\u003e=18"
+                },
+    "dsh":  {
+                "bundle":  {
+                               "patch":  "./cordis.patch.yml"
+                           },
+                "compatibility":  {
+                                      "dsh":  "\u003e=0.2.1-rc.1 \u003c0.3.0",
+                                      "profiles":  [
+                                                       "desktop",
+                                                       "web"
+                                                   ]
+                                  }
+            }
+}
