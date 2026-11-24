@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Session archive",
+    "description": "Points the agent at your exported session transcripts and adds a read-only ctx_archive tool so it can list, grep and read old conversations on demand instead of keeping them in context.",
+    "detail": "docs/DETAIL.md"
+  }
+}
