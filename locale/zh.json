@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "会话归档",
+    "description": "把导出的历史会话交给 Agent 按需查阅：注入一段归档说明，并提供一个只读的 ctx_archive 工具（列出、检索、按行读取），旧对话不再常驻上下文。",
+    "detail": "docs/DETAIL.md"
+  }
+}
