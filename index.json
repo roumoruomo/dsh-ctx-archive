@@ -21,22 +21,22 @@
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0iIzFiM2E1YyIvPgogIDxwYXRoIGQ9Ik0xNiAyMGgzMnY2SDE2eiIgZmlsbD0iIzhmYjhkZSIgb3BhY2l0eT0iMC41NSIvPgogIDxwYXRoIGQ9Ik0xNiAzMGgzMnY2SDE2eiIgZmlsbD0iIzhmYjhkZSIgb3BhY2l0eT0iMC43NSIvPgogIDxwYXRoIGQ9Ik0xNiA0MGgyMHY2SDE2eiIgZmlsbD0iIzhmYjhkZSIvPgogIDxjaXJjbGUgY3g9IjQ2IiBjeT0iNDMiIHI9IjciIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgPHBhdGggZD0iTTUxIDQ4bDYgNiIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
       "versions": [
         {
-          "version": "0.4.3",
-          "publishTimestamp": 1795529348,
+          "version": "0.4.4",
+          "publishTimestamp": 1795610351,
           "source": {
             "type": "git",
             "url": "https://github.com/roumoruomo/dsh-ctx-archive",
-            "commit": "00bfcdfff6a2b2b3b1522351cb0493dad7711c33"
+            "commit": "54112e9f3dcf0b756ce9e6bc6209f90cb2c7a05d"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.1 <0.3.0"
           }
         }
       ],
-      "detail": "\n\n0.4.0：会话目录名默认打码为 <sid-N>，overview 默认 none，工具输出不再带用户名、家目录、完整会话 ID 或工作区路径。\n\n0.4.1：包内只保留功能与中性示例，去掉真实项目细节与个人标识；补齐 force-bridge.mjs 进 files，hostForce 才真正可用。\n\n0.4.2：README 顶部加隐私声明（归档是原始对话，本地读取、不上传），包内不含任何真实内容。\n\n0.4.3：可选宿主补丁移到 optional/host-patch/（不在安装包内，README 单独一节说明代价与撤销方式）；发布仓库不含 PACKAGING.md、测试与 dist。"
+      "detail": "\n\n0.4.0：会话目录名默认打码为 <sid-N>，overview 默认 none，工具输出不再带用户名、家目录、完整会话 ID 或工作区路径。\n\n0.4.1：包内只保留功能与中性示例，去掉真实项目细节与个人标识；补齐 force-bridge.mjs 进 files，hostForce 才真正可用。\n\n0.4.2：README 顶部加隐私声明（归档是原始对话，本地读取、不上传），包内不含任何真实内容。\n\n0.4.3：可选宿主补丁移到 optional/host-patch/（不在安装包内，README 单独一节说明代价与撤销方式）；发布仓库不含 PACKAGING.md、测试与 dist。\n\n0.4.4：文档双语化——新增 README.en.md 与 docs/DETAIL.en.md；locale/en.json 的 meta.detail 指向英文详述，中文用户仍看 docs/DETAIL.md；README 顶部互链。功能无变化。\n\n0.4.4: bilingual docs — added README.en.md and docs/DETAIL.en.md; locale/en.json meta.detail now points at the English page while Chinese users keep docs/DETAIL.md; cross-links added at the top of the README. No functional change."
     }
   ],
   "metadata": {
-    "updatedAt": "2026-11-24T14:09:08.650Z"
+    "updatedAt": "2026-11-25T12:39:11.230Z"
   }
 }
