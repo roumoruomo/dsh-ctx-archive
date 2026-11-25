@@ -1,5 +1,7 @@
 # dsh-ctx-archive
 
+> English: [README.en.md](README.en.md)
+
 > **归档内容是你自己的原始对话。** 本插件只在本机读取 `root` 下的 markdown，不上传、不联网、不写宿主文件。
 > 把归档目录分享给他人、或接入自己的发布流程前，请先确认其中的内容可以公开。
 
