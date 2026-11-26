@@ -1,6 +1,6 @@
 {
   "name": "dsh-ctx-archive",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "Rebuilds a session-archive briefing on every step: a hard instruction to verify old facts through the read-only ctx_archive tool, plus a live inventory of the archive root. Session directory names are masked as <sid-N> by default.",
   "type": "module",
   "exports": {
@@ -16,7 +16,8 @@
     "docs",
     "icon.svg",
     "README.md",
-    "README.en.md"
+    "README.en.md",
+    "README.zh.md"
   ],
   "keywords": [
     "deepseek",
